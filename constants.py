@@ -5,10 +5,9 @@ NAME_PATTERN = [{'POS': 'PROPN'}, {'POS': 'PROPN'},{"ORTH": "User"}, {"ORTH": "n
 
 # Education (Upper Case Mandatory)
 EDUCATION = [
-            'BSC','BS Computer Science', 'BSCS', 'BSIT', 'BS Information technologies', 'BSSE','BS software engineerning', 'BBIT', 'BSDS','MSDS','MSC', 'MSCS',
-            'MCS', 'MS', 'M.S', 'BTECH', 'MTECH','PHD','MPHIL','ICS' ,'FSC','ICOM','BCOM','DCOM',
-            'SSC', 'HSC', 'CBSE', 'ICSE', 'X', 'XII',''
-        ]
+            'BSC','BS Computer Science', 'BSCS', 'BSIT', 'BS Information technologies', 'BSSE','BS Software Engineering', 'BBIT', 'BSDS','MSDS','MSC', 'MSCS', 'Pre-engineering','Aeronautics and Aviation Science','Anthropology','Art','Business Administration','Chemistry','Economics','Education','Engineering','Literature','Law','Nursing and Health Sciences','Medical and Dental Sciences','Pharmacy','Physical Science','Engineering','Integrated Science','Sociology','Social Welfare','Tourism Studies','Media Studies','International Relations','Engineering','Nursing Science','Medical Technology','Health Sciences','Medicine','Pharmacy','Mathematics','Biology','General Science','Mechanical Engineering','Biotechnology','Industrial Design',
+            'MCS', 'MS', 'M.S', 'BTECH', 'MTECH','PHD','MPHIL','ICS' ,'FSC','ICOM','BCOM','DCOM','Information Engineering','Agriculture','Agricultural Engineering','Fisheries Science','Forest Science','Veterinary Medicine','Animal Science','Agricultural Chemistry','Fashion','Music',''
+            'SSC', 'HSC', 'CBSE', 'ICSE', 'X', 'XII','intermediate','school']
 
 NOT_ALPHA_NUMERIC = r'[^a-zA-Z\d]'
 
@@ -75,27 +74,22 @@ terms = {'Quality/Six Sigma':['black belt','capability analysis','control charts
                           'coding','data','database','data mining','data science','deep learning','hadoop',
                           'hypothesis test','iot','internet','machine learning','modeling','nosql','nlp',
                           'predictive','programming','python','r','sql','tableau','text mining',
-                          'visualuzation'],
-         'Data Science':['analytics','api','aws','big data','busines intelligence','clustering','code',
+                          'visualuzation','communication','storytelling','collaboration'],
+         'Data Science':['analytics','big data','busines intelligence','clustering','code',
                           'coding','data','database','data mining','data science','deep learning','hadoop',
-                          'hypothesis test','iot','internet','machine learning','modeling','nosql','nlp',
+                          'hypothesis test','iot','hadoop platform','machine learning','modeling','nosql','nlp',
                           'predictive','programming','python','r','sql','tableau','text mining',
-                          'visualuzation'],
+                          'visualuzation','Learning','communication','storytelling','collaboration'],
          'Machine Learning':['analytics','api','aws','big data','busines intelligence','clustering','code',
                           'coding','data','database','data mining','data science','deep learning','hadoop',
                           'hypothesis test','iot','internet','machine learning','modeling','nosql','nlp',
                           'predictive','programming','python','r','sql','tableau','text mining',
                           'visualuzation'],
-         'Software Engineernig':['analytics','api','aws','big data','busines intelligence','clustering','code',
-                          'coding','data','database','data mining','data science','deep learning','hadoop',
-                          'hypothesis test','iot','internet','machine learning','modeling','nosql','nlp',
-                          'predictive','programming','python','r','sql','tableau','text mining',
-                          'visualuzation'],
-         'System Security':['analytics','api','aws','big data','busines intelligence','clustering','code',
-                          'coding','data','database','data mining','data science','deep learning','hadoop',
-                          'hypothesis test','iot','internet','machine learning','modeling','nosql','nlp',
-                          'predictive','programming','python','r','sql','tableau','text mining',
-                          'visualuzation'],
+         'Software Engineernig':['api','aws','azure','coding','database','hypothesis test','iot','internet', 
+                                 'programming','python','r','OOP','object oriented programming','test','c#','java','web development','.net','asp.net','ror','php','linq','javascript','agile','sdlc','logical thinking','problem solving','algorathims','data structure','web programming','html','css','bootstrap','teamwork'],
+                 'Network Engineerning':['firewall','security','networking','cloud computing','warehousing','operating system','commmunication skills','coding','problem solving','trubleshooting','man','pan','lan','voip',
+                          'san','wan','internet','can','wlan','gan','cisco',
+                          'switching','routing','python','security','iot',],
         'Healthcare':['adverse events','care','clinic','cphq','ergonomics','healthcare',
                       'health care','health','hospital','human factors','medical','near misses',
                       'patient','reporting system']}
